@@ -29,7 +29,7 @@
 ### Discretized Representation
 
 - [Visualization of discretized modalities](DatasetVisualization.ipynb) <br>
-<img src="figs/Features.jpg" alt="drawing" width="800px"/>
+<img src="figs/Features.jpg" alt="drawing" width="600px"/>
 
 ### Dataset Collection
 
