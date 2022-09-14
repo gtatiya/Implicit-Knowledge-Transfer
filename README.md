@@ -4,7 +4,7 @@
 
 > Humans leverage multiple sensor modalities when interacting with objects and discovering their intrinsic properties. Using the visual modality alone is insufficient for deriving intuition behind object properties (e.g., which of two boxes is heavier), making it essential to consider non-visual modalities as well, such as the tactile and auditory. Whereas robots may leverage various modalities to obtain object property understanding via learned exploratory interactions with objects (e.g., grasping, lifting, and shaking behaviors), challenges remain: the implicit knowledge acquired by one robot via object exploration cannot be directly leveraged by another robot with different morphology, because the sensor models, observed data distributions, and interaction capabilities are different across these different robot configurations. To avoid the costly process of learning interactive object perception tasks from scratch, we propose a multi-stage projection framework for each new robot for transferring implicit knowledge of object properties across heterogeneous robot morphologies. We evaluate our approach on the object-property recognition and object-identity recognition tasks, using a dataset containing two heterogeneous robots that perform 7,600 object interactions. Results indicate that knowledge can be transferred across robots, such that a newly-deployed robot can bootstrap its recognition models without exhaustively exploring all objects. We also propose a data augmentation technique and show that this technique improves the generalization of models. We release  our code and datasets, here: https://github.com/gtatiya/Implicit-Knowledge-Transfer.
 
-<img src="figs/System_Overview.jpg" alt="drawing" width="600px"/>
+<img src="figs/System_Overview_Behaviors_Objects.png" alt="drawing" width="800px"/>
 
 ## Development Environment
 
@@ -21,7 +21,7 @@
 ### MATLAB Dependencies
 `Statistics and Machine Learning Toolbox`
 
-## [Dataset]
+## Dataset
 
 - [Download the dataset](https://tufts.box.com/s/t4apxhxtti6tlo9p875xtp823rhx1x9i)
 - Dataset details can be found on the [dataset webpage](https://www.eecs.tufts.edu/~gtatiya/pages/2022/Baxter_UR5_95_Objects_Dataset.html).
@@ -29,7 +29,7 @@
 ### Discretized Representation
 
 - [Visualization of discretized modalities](DatasetVisualization.ipynb) <br>
-<img src="figs/Features.jpg" alt="drawing" width="900px"/>
+<img src="figs/Features.jpg" alt="drawing" width="800px"/>
 
 ### Dataset Collection
 
@@ -43,12 +43,12 @@ UR5: https://youtu.be/I-2cBNgxEWc <br>
 <tr>
 <td>
 	<a href="https://youtu.be/OIxgTVXdX28">Baxter</a>
-	<img src="figs/Baxter_Demo.gif" alt="drawing" width="800" height="250"/>
+	<img src="figs/Baxter_Demo.gif" alt="drawing" width="400" height="250"/>
 </td>
 
 <td>
 	<a href="https://youtu.be/I-2cBNgxEWc">Fetch</a>
-	<img src="figs/UR5_Demo.gif" alt="drawing" width="800" height="250"/>
+	<img src="figs/UR5_Demo.gif" alt="drawing" width="400" height="250"/>
 </td>
 </tr>
 
